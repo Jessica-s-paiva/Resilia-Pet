@@ -11,6 +11,9 @@ header{
     display: flex;
     flex-direction: row;
 }
+.logo1{
+    padding: 0 20px;
+}
 .logo{
     display: flex;
     justify-content: center;
@@ -24,6 +27,7 @@ header{
     border-radius: 15px;
     font-family: 'Pacifico', cursive;
     font-size: 18px;
+    padding:  0 20px;
 }
 nav{
     display: flex;
@@ -55,6 +59,8 @@ font-size: 50px;
     width: 100%;
     background-color: #8ECAE6;
     padding: 40px;
+    margin: 0 10px 0 10px;
+    border-radius: 10px;
 }
 
 .texto-1{
@@ -69,14 +75,21 @@ font-size: 50px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 800px;
+    justify-content: center;
+    width: 100%;
     height: auto;
     background-color: #FB8500;
+    border-radius: 10px;
+    margin: 0 10px 10px 10px;
+    font-family: 'Pacifico', cursive;
+    font-size: 66px;
+    color: black;
+    text-shadow: 0.1em 0.1em 0.05em #8ECAE6;
 }
 
 .banner1{
     width: auto;
-    height: 500px;
+    height: 400px;
 }
 
 .animal{
