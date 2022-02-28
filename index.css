@@ -65,6 +65,20 @@ font-size: 50px;
     font-size: 20px;
 }
 
+.meuSlide{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 800px;
+    height: auto;
+    background-color: #FB8500;
+}
+
+.banner1{
+    width: auto;
+    height: 500px;
+}
+
 .animal{
     width: 25%;
     display: flex;
@@ -72,7 +86,10 @@ font-size: 50px;
     flex-wrap: wrap;
     justify-content: space-evenly;
     text-align: justify;
-    
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 15px #023047;
 }
 
 .imagem{
